@@ -87,6 +87,7 @@ Susceptibility estimation: The small-world implementation includes an explicit m
 # Citation
 
 If you use this code in your research, please cite our paper:
+```
 @article{author2025new,
   title={A New Perspective on Creativity: Integration of the Ising Model and Dynamic Systems Theory},
   author={Jho, H. and Luo, W.},
@@ -94,5 +95,5 @@ If you use this code in your research, please cite our paper:
   year={2025},
   publisher={IEEE}
 }
-
+```
 
