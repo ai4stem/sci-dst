@@ -7,7 +7,7 @@ model = SmallWorldIsingModel(
     k=4,                # Initial connections per node
     p_rewire=0.1,       # Rewiring probability
     t_high=5.0,         # High temperature
-    t_low=1.5,          # Low temperature
+    t_low=1.0,          # Low temperature
     eta=0.005,          # Learning rate
     rho=0.0005          # Decay factor
 )

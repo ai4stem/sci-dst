@@ -153,7 +153,17 @@ class SmallWorldIsingModel:
         susceptibility = np.abs(avg_perturbed_m - original_m) / delta_h
         
         return susceptibility
-    
+
+    def hamming_distance(self, pattern):
+        """ Calculate Hamming distance to a target pattern """
+        if len(pattern) != self.n_nodes:
+            print("Error: Pattern length mismatch for Hamming distance calculation.")
+            return -1 # 또는 에러 발생시키기
+        # 패턴이 numpy 배열인지 확인 (직접 비교는 보통 문제 없음)
+        pattern_arr = np.array(pattern)
+        # 다른 요소의 수를 전체 노드 수로 나눔 (정규화된 해밍 거리)
+        return np.sum(self.spins != pattern_arr) / self.n_nodes
+
     def monte_carlo_sweep(self, temperature):
         """Perform one Monte Carlo sweep (n_nodes attempted spin flips)"""
         for _ in range(self.n_nodes):
