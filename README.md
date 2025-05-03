@@ -28,7 +28,6 @@ You can install dependencies using pip:
 
 pip install numpy networkx matplotlib tqdm pandas
 
-*(Optionally, provide a requirements.txt file)*
 
 ## **Code Structure Overview**
 
@@ -97,7 +96,7 @@ If you use this code or the SCI-DST framework in your research, please cite our 
 
 @article{JhoLuo2025SciRep,  
   title     \= {Critical Dynamics in Creative Cognition: An Ising-Based Computational Framework for Modelling Insight},  
-  author    \= {Jho, Hunkoog and Luo, Wei},  
+  author    \= {Jho, H., and Luo, W.},  
   journal   \= {Scientific Reports},  
   year      \= {2025},  
   volume    \= {},  
@@ -110,4 +109,3 @@ If you use this code or the SCI-DST framework in your research, please cite our 
 
 ## **License**
 
-*(Optional: Add license information, e.g., MIT License)*
